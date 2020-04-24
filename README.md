@@ -1,6 +1,6 @@
 # go-websocket-job-runner
 
-This is a proof of concept for a job runner service using the websocket api. Back-end is golang and uses [gorilla/websocket](github.com/gorilla/websocket) for websocket implementation. It serves static content in the `./static` directory and front-end is vanilla js/html/css. To run it, `go run main.go` then open your browser to localhost:8080.
+This is a proof of concept for a job runner service using the websocket api. Back-end is golang and uses [gorilla/websocket](https://github.com/gorilla/websocket) for websocket implementation. It serves static content in the `./static` directory and front-end is vanilla js/html/css. To run it, `go run main.go` then open your browser to localhost:8080.
 
 ## The Problem
 Here are the parameters of the problem this repo is meant to solve conceptually:
