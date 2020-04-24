@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Job Runner</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="./main.js"></script>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- A placeholder for our logs -->
+    <div id="log">
+    </div>
+    <!-- App controls -->
+    <div id="controls">
+        <button onclick="connectToWebsocket()">Connect</button>
+        <button onclick="disconnect()">Disconnect</button>
+        <button onclick="createJob()">Create a new job</button>
+        <span>Pending jobs: <span id="pending">0</span></span>
+        <span>Completed jobs: <span id="completed">0</span></span>
+        <span>Total jobs: <span id="total">0</span></span>
+    </div>
+</body>
+
+</html>
